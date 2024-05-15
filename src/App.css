@@ -1,0 +1,96 @@
+.container {
+  max-width: 1200px;
+  min-width: 800px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  align-items: center;
+  border-bottom: 1px solid #e1e1e1;
+  padding: 0 16px;
+}
+
+.writeForm {
+  padding: 30px 16px;
+  background: #e9e9e9;
+  display: flex;
+  justify-content: space-between;
+}
+
+.writeForm input {
+  height: 35px;
+  border: none;
+  width: 250px;
+  border-radius: 8px;
+  padding: 0 16px;
+  font-size: 15px;
+}
+
+.writeForm label {
+  font-weight: bold;
+  margin-right: 16px;
+}
+
+.writeForm input + label {
+  margin-left: 16px;
+}
+
+.writeForm button {
+  background: #009688;
+  border: none;
+  color: #ffffff;
+  width: 120px;
+  height: 40px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.todos {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.todo strong {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.todo p {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.btn-wrap button {
+  border: 2px solid #ddd;
+  background: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+}
+
+.btn-wrap {
+  display: flex;
+  gap: 6px;
+  margin-top: 12px;
+}
+
+.todo {
+  border: 4px solid #009688;
+  padding: 30px 26px;
+  border-radius: 10px;
+  width: calc(25% - 7.5px);
+  box-sizing: border-box;
+}
+
+.section h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.section {
+  margin-top: 60px;
+}
